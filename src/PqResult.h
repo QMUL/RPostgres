@@ -280,6 +280,7 @@ private:
       case 1184: // TIMESTAMPTZOID
       case 1186: // INTERVAL
       case 1266: // TIMETZOID
+      case 2950: // UUID
         types.push_back(STRSXP);
         break;
 
